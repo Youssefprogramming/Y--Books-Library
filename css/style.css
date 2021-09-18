@@ -1,0 +1,513 @@
+body{
+    margin: 0px;
+}
+.title a{
+    text-align: center;
+    color: rgb(0, 0, 0);   
+    display: block;
+    font-size: 2rem;
+    border: 4px solid gray;
+    text-decoration: none;
+    border-radius: 10px;
+}
+a:hover{
+    color: rgb(169, 168, 184);
+}
+img{
+    width: 50%;
+    float: left;
+    margin-top: -250px;
+    margin-left: -137px;
+    border:5px solid black;
+    border-radius: 10px;
+
+}
+.image img{
+    width: 50%;
+    float: right;
+    margin-top: -250px;
+    margin-right: -106px;
+    border:5px solid black;
+    border-radius: 10px;
+
+}
+
+.carre{
+    margin: 0px;
+    width: 515px;
+    height: 305px;
+    animation-name: x;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+}
+.you{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: cadetblue;
+    animation-name: y;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes y{
+    0%{background-color: red; left: 0px; top:0px;}
+    25%{background-color: blue; left: 390px; top:0px;}
+    50%{background-color: greenyellow; left: 390px; top: 0px;}
+    75%{background-color: black; left: 0px; top: 0px;}
+    100%{background-color: orange; left: 0px; top:0px;}
+}
+.ssef{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: cadetblue;
+    animation-name: e;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+@keyframes e{
+    0%{background-color: red; left: 0px; top:0px;}
+    25%{background-color: blue; left: 0px; top:0px;}
+    50%{background-color: greenyellow; left: 0px; top: 6000px;}
+    75%{background-color: black; left: px; top: 6000px;}
+    100%{background-color: orange; left: 0px; top:0px;}
+}
+.ssef-1{
+    width: 100px;
+    height: 100px;
+    margin-left: 390px;
+    position: relative;
+    background-color: cadetblue;
+    animation-name: e;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    margin-top: -100px;
+}
+@keyframes e{
+    0%{background-color: red; left: 0px; top:0px;}
+    25%{background-color: blue; left: 0px; top:0px;}
+    50%{background-color: greenyellow; left: 0px; top: 5913px;}
+    75%{background-color: black; left: px; top: 5913px;}
+    100%{background-color: orange; left: 0px; top:0px;}
+}
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 150px;
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+}
+
+.topnav {
+    background-color: #333;
+    padding: 10px 16px;
+}
+.topnav  a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 16px;
+    color: #f1f1a1;
+}
+.topnav  a:hover{
+    background-color: #ddd;
+    color: black;
+}
+ @keyframes x{
+    0%{background-color: Cyan;}
+    0%{background-color: DarkOrchid;}
+    25%{background-color: DarkOrange;}
+    0%{background-color: Chocolate;}
+    0%{background-color: DimGrey;}
+    25%{background-color: Chartreuse;}
+    50%{background-color: pink;}
+    75%{background-color: Coral;}
+    100%{background-color: DarkKhaki;}
+
+}
+.favorite h1{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    border-bottom: crimson 4px solid;
+    border-top: rgb(255, 255, 255) 4px solid;
+    border-right: rgb(255, 255, 255) 4px solid;
+    border-left: rgb(255, 255, 255) 4px solid;
+    margin: 0 100px;
+    
+}
+
+.navbar img{
+    padding-left: 105px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+
+}
+.navbar img :hover{
+    
+}
+.nav img{
+    padding-left: 113px;
+    margin-top: 30px;
+    border: none;
+    margin: 10px 20px;
+    width: 50%;
+}
+.header img{
+    padding-left: 118px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+}
+.y img{
+    padding-left: 120px;
+    margin-top: 30px;
+    border: none;
+    margin: 12px 20px;
+    width: 50%;
+    margin-bottom: 150px;
+}
+.ENGLISH h1{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    border-bottom: crimson 4px solid;
+    border-top: rgb(255, 255, 255) 4px solid;
+    border-right: rgb(255, 255, 255) 4px solid;
+    border-left: rgb(255, 255, 255) 4px solid;
+    
+    
+}
+.Leader img{
+    padding-left: 105px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+}
+.Lead img{
+    padding-left: 113px;
+    margin-top: 30px;
+    border: none;
+    margin: 10px 20px;
+    width: 50%;
+}
+.phrases img{
+    padding-left: 118px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+}
+.oxford img{
+    padding-left: 120px;
+    margin-top: 30px;
+    border: none;
+    margin: 12px 20px;
+    width: 50%;
+    margin-bottom: 150px;
+}
+.A h1{
+    color: rgb(83, 83, 83);
+    text-align: center;
+    border-bottom: crimson 4px solid;
+    border-top: rgb(255, 255, 255) 4px solid;
+    border-right: rgb(255, 255, 255) 4px solid;
+    border-left: rgb(255, 255, 255) 4px solid;
+    margin: 1px 100px;
+}
+.arab-1 img{
+    padding-left: 105px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+}
+.arab-2 img{
+    padding-left: 113px;
+    margin-top: 30px;
+    border: none;
+    margin: 10px 20px;
+    width: 50%;
+}
+.arab-3 img{
+    padding-left: 118px;
+    margin-top: 30px;
+    border: none;
+    margin: 81px 20px;
+    width: 50%;
+}
+.arab-4 img{
+    padding-left: 120px;
+    margin-top: 30px;
+    border: none;
+    margin: 12px 20px;
+    width: 50%;
+    margin-bottom: 150px;
+}
+.cop{
+    background-color: black;
+}
+.cop h2{
+    text-align:  center;
+    margin-top: 2000px;
+    color: LightGoldenRodYellow;
+    margin-left: 82px;
+    margin-right: 77px;
+}
+.cop p{
+    text-align:  center;
+    margin-top: 10px;
+    color: LightGoldenRodYellow;
+    margin-left: 82px;
+    margin-right: 77px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width:728px){
+    .title a{
+        text-align: center;
+        color: rgb(0, 0, 0);   
+        display: block;
+        font-size: 3rem;
+        border: 4px solid gray;
+        text-decoration: none;
+        border-radius: 40px;
+        padding: 40px 0px;
+    }
+    a:hover{
+        color: rgb(169, 168, 184);
+    }
+    img{
+        width: 13%;
+        float: left;
+        margin-top: -295px;
+        margin-left: -150px;
+        border:5px solid black;
+        border-radius: 10px;
+
+    }
+    .image img{
+        width: 13%;
+        float: right;
+        margin-top: -293px;
+        margin-right: -131px;
+        border:5px solid black;
+        border-radius: 10px;
+
+    }
+    
+    .carre{
+        margin: 0px;
+        width: 1363px;
+        height: 422px;
+        animation-name: x;
+        animation-duration: 120s;
+        animation-iteration-count: infinite;
+    }
+    .you{
+        width: 200px;
+        height: 170px;
+        position: relative;
+        background-color: cadetblue;
+        animation-name: y;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes y{
+        0%{background-color: red; left: 0px; top:0px;}
+        25%{background-color: blue(7, 114, 55); left: 1147px; top:0px;}
+        50%{background-color: greenyellow(45, 119, 55); left: 1147px; top:px;}
+        75%{background-color: black(97, 124, 61); left: 0px; top: 0px;}
+        100%{background-color: green(109, 161, 42, 0.116); left: 0px; top:0px;}
+        
+    }
+    .ssef{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background-color: cadetblue;
+        animation-name: e;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes e{
+        0%{background-color: red; left: 0px; top:0px;}
+        25%{background-color: blue; left: 0px; top:0px;}
+        50%{background-color: greenyellow; left: 0px; top: 3700px;}
+        75%{background-color: black; left: px; top: 3700px;}
+        100%{background-color: orange; left: 0px; top:0px;}
+    }
+    .ssef-1{
+        width: 200px;
+        height: 200px;
+        margin-left: 1151px;
+        position: relative;
+        background-color: cadetblue;
+        animation-name: e;
+        animation-duration: 30s;
+        animation-iteration-count: infinite;
+        margin-top: -202px;
+    }
+    @keyframes e{
+        0%{background-color: red; left: 0px; top:0px;}
+        25%{background-color: blue; left: 0px; top:0px;}
+        50%{background-color: greenyellow; left: 0px; top: 3680px;}
+        75%{background-color: black; left: px; top: 3680px;}
+        100%{background-color: orange; left: 0px; top:0px;}
+    }
+    @keyframes x{
+        0%{background-color: Cyan;}
+        0%{background-color: Chocolate;}
+        0%{background-color: DarkOrchid;}
+        25%{background-color: DarkOrange;}
+        100%{background-color: DarkKhaki;}
+        0%{background-color: DimGrey;}
+        75%{background-color: Coral;}
+        25%{background-color: Chartreuse;}
+        50%{background-color: pink;}
+       
+    }
+    .favorite h1{
+        color: rgb(83, 83, 83);
+        text-align: center;
+        border-bottom: crimson 4px solid;
+        border-top: rgb(255, 255, 255) 4px solid;
+        border-right: rgb(255, 255, 255) 4px solid;
+        border-left: rgb(255, 255, 255) 4px solid;
+        margin: 0 500px;
+        
+    }
+
+    .navbar img{
+        padding-left: 265px;
+        margin-top: 30px;
+        border: none;
+        margin: 123px 20px;
+        width: 20.5%;
+    }
+    .nav img{
+        padding-left: 207px;
+        margin-top: 30px;
+        border: none;
+        margin: 140px 20px;
+        width: 20.5%;
+    }
+    .header img{
+        padding-left: 203px;
+        margin-top: 30px;
+        border: none;
+        margin: 34px 20px;
+        width: 22.5%;
+    }
+    .y img{
+        padding-left: 246px;
+        margin-top: 30px;
+        border: none;
+        margin: -438px 20px;
+        width: 23%;
+    }
+    .ENGLISH h1{
+        color: rgb(83, 83, 83);
+        text-align: center;
+        border-bottom: crimson 4px solid;
+        border-top: rgb(255, 255, 255) 4px solid;
+        border-right: rgb(255, 255, 255) 4px solid;
+        border-left: rgb(255, 255, 255) 4px solid;
+        margin: -81px 500px;
+        padding-top: 10px;
+        
+    }
+    .Leader img{
+        padding-left: 265px;
+        margin-top: 30px;
+        border: none;
+        margin: 123px 20px;
+        width: 20.5%;
+    }
+    .Lead img{
+        padding-left: 207px;
+        margin-top: 30px;
+        border: none;
+        margin: 123px 20px;
+        width: 20.5%;
+    }
+    .phrases img{
+        padding-left: 249px;
+        margin-top: 30px;
+        border: none;
+        margin: 11px 20px;
+        width: 21.5%;
+    }
+    .oxford img{
+        padding-left: 203px;
+        margin-top: 30px;
+        border: none;
+        margin: 11px 20px;
+        width: 21.5%;
+        margin-bottom: 150px;
+    }
+    .A h1{
+        color: rgb(83, 83, 83);
+        text-align: center;
+        border-bottom: crimson 4px solid;
+        border-top: rgb(255, 255, 255) 4px solid;
+        border-right: rgb(255, 255, 255) 4px solid;
+        border-left: rgb(255, 255, 255) 4px solid;
+        margin: 1px 550px;
+    }
+    .arab-1 img{
+        padding-left: 265px;
+        margin-top: 30px;
+        border: none;
+        margin: 67px -12px;
+        width: 22.5%;
+    }
+    .arab-2 img{
+        padding-left: 207px;
+        margin-top: 30px;
+        border: none;
+        margin: 123px 20px;
+        width: 20.5%;
+    }
+    .arab-33  img{
+        padding-left: 249px;
+        margin-top: 30px;
+        border: none;
+        margin: 11px 20px;
+        width: 21.5%;
+    }
+    .arab-4 img{
+        padding-left: 203px;
+        margin-top: 30px;
+        border: none;
+        margin: 11px 20px;
+        width: 21.5%;
+    }
+    .cop{ 
+        background-color: black;
+    }
+    .cop h2{
+        text-align:  center;
+        margin-top: 1200px;
+        color: LightGoldenRodYellow;
+        margin-left: 82px;
+        margin-right: 77px;
+    }
+    .cop p{
+        text-align:  center;
+        margin-top: 10px;
+        color: LightGoldenRodYellow;
+        margin-left: 82px;
+        margin-right: 77px;
+        margin-bottom: 0px;
+    }
+    .spam{
+        color: red;
+    }
+}
